@@ -1,4 +1,4 @@
-package com.example.mobiledevelopment.ui
+package com.example.mobiledevelopment.ui.materi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

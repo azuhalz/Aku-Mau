@@ -15,10 +15,10 @@
         android:theme="@style/Theme.MobileDevelopment"
         tools:targetApi="31">
         <activity
-            android:name=".ui.LatihanSoalActivity"
+            android:name=".ui.latihansoal.LatihanSoalActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.MateriActivity"
+            android:name=".ui.materi.MateriActivity"
             android:exported="false" />
         <activity
             android:name=".ui.MainActivity"

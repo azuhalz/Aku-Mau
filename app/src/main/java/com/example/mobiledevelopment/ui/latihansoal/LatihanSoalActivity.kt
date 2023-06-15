@@ -1,4 +1,4 @@
-package com.example.mobiledevelopment.ui
+package com.example.mobiledevelopment.ui.latihansoal
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
