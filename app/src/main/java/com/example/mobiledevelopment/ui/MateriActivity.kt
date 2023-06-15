@@ -1,11 +1,12 @@
-package com.example.mobiledevelopment
+package com.example.mobiledevelopment.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.mobiledevelopment.R
 
-class MainActivity : AppCompatActivity() {
+class MateriActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_materi)
     }
 }
