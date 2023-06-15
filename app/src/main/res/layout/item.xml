@@ -7,21 +7,16 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:padding="8dp"
+    android:layout_marginBottom="8dp"
     card_view:cardCornerRadius="4dp">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/tvItem"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="8dp">
+        android:layout_height="90dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center|left"
+        tools:text="Penalaran Matematika"/>
 
-        <TextView
-            android:id="@+id/tv_item"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:gravity="center|left"
-            tools:text="Penalaran Matematika"/>
-
-    </LinearLayout>
 </androidx.cardview.widget.CardView>

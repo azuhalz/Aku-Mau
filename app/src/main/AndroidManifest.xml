@@ -15,19 +15,33 @@
         android:theme="@style/Theme.MobileDevelopment"
         tools:targetApi="31">
         <activity
-            android:name=".ui.latihansoal.LatihanSoalActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.materi.MateriActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.latihansoal.level.LevelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.materi.konten.KontenMateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.materi.bab.BabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.latihansoal.subsoal.SubSoalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.materi.subtes.MateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false">
         </activity>
     </application>
 

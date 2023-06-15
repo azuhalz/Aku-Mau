@@ -1,12 +1,12 @@
-package com.example.mobiledevelopment.ui.materi
+package com.example.mobiledevelopment.ui.latihansoal.level
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.mobiledevelopment.R
 
-class MateriActivity : AppCompatActivity() {
+class LevelActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_materi)
+        setContentView(R.layout.activity_level)
     }
 }
