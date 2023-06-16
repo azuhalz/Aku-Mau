@@ -8,15 +8,17 @@
     android:layout_gravity="center"
     android:padding="8dp"
     android:layout_marginBottom="8dp"
+    card_view:cardBackgroundColor="#df8e40"
     card_view:cardCornerRadius="4dp">
 
     <TextView
         android:id="@+id/tvItem"
+        android:padding="16dp"
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:textSize="16sp"
         android:textStyle="bold"
         android:gravity="center|left"
-        tools:text="Penalaran Matematika"/>
+        tools:text="Penalaran Matematika" />
 
 </androidx.cardview.widget.CardView>

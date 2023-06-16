@@ -1,7 +1,7 @@
 package com.example.mobiledevelopment.ui.latihansoal.level
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.mobiledevelopment.R
 
 class LevelActivity : AppCompatActivity() {
